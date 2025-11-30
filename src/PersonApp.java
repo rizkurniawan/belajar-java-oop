@@ -14,5 +14,7 @@ public class PersonApp {
         System.out.println(person2.name);
         System.out.println(person2.address);
         System.out.println(person2.country);
+
+        person2.sayHello("Bejo");
     }
 }
