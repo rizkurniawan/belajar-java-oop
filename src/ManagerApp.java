@@ -5,5 +5,7 @@ public class ManagerApp {
 
         VicePresident vp = new VicePresident("Joko");
         vp.sayHello("Tony");
+        System.out.println(manager.toString());
+        System.out.println(manager);
     }
 }
