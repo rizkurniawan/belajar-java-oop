@@ -8,4 +8,8 @@ public class Avanza implements Car {
     public int getTire() {
         return 4;
     }
+
+    public String getBrand() {
+        return "Toyota";
+    }
 }
