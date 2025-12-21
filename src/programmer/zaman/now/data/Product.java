@@ -8,4 +8,9 @@ public class Product {
         this.name = name;
         this.price = price;
     }
+
+    // OVERIDE DEFAULT TO STRING
+    public String toString() {
+         return "Nama produk: " + name + ". Price: " + price;
+    }
 }
